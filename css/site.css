@@ -1,0 +1,65 @@
+.site{
+  background-image: url('../img/site/site-bg.jpg');
+  background-size: cover;
+}
+.shadow{
+  height: 100%;
+  padding-top: 250px;
+}
+@media screen and (max-width: 768px){  
+.site{
+  background-image: url('../img/site/phone.jpg');
+  background-size: cover;
+}
+.shadow{
+  height: 100%;
+  padding-top: 210px;
+}
+}
+@media screen and (max-width: 768px){  
+.shadow{
+  height: 100%;
+  padding-top: 250px;
+}
+} 
+h3{
+  font-weight: bold;
+}
+.menu{
+  border: none;
+  display: block;
+  text-decoration: none;
+}
+.menu img{
+  margin: 0 auto;
+  width: 100px;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #fff;
+}
+.buttons{
+  margin-top: 25px;
+}
+.footer{
+  margin-top: 5%;
+}
+.company-info p{
+    line-height: 30px;
+}
+@media screen and (max-width: 768px){  
+.company-info p{
+    line-height: 20px;
+}
+}  
+a{
+  text-decoration: none;
+  color: white;
+}
+.white-color{
+  color: white; 
+}
+.copyright{
+  margin-top: 5px;
+}

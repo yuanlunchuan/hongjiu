@@ -1,0 +1,260 @@
+@font-face{
+    font-family: 'lanting';
+    src : url('../fonts/lanting.TTF');
+}
+body{
+    font-family: 'lanting', sans-serif;
+}
+.header{
+    background: #000;
+    color: #fff;
+    padding-top: 2px;
+    padding-bottom: 2px; 
+}
+.navbar-default{
+    background-color: #fff;
+    border: none;
+    box-shadow: 0px 2px 8px 0px rgba(50,50,50,0.25);
+}
+.navbar-default .navbar-nav>li>a {
+    font-size: 16px;
+    color: #666;
+    height: 60px;
+    line-height: 30px;
+}
+.navbar-toggle{
+    margin-top: 17px;
+}
+.logo{
+    height: 30px;
+}
+.bold-text{
+    font-weight: bold;
+}
+.navbar-default .navbar-toggle:hover {
+    border-color: #40D2B1;
+    background-color: rgb(69, 210, 184);
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #1C9982;
+}
+.active-item{
+    background: rgb(0,200,151);
+}
+.active-item a{
+    color: #fff !important;
+}
+.learn-button{
+    margin-left: 10%;
+    display: block;
+    font-size: 18px;
+    background: rgb(235, 176, 40);
+    border: 1px solid yellow;
+    border-radius: 15px;
+    border: none;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+.banner{
+    margin-top: 80px;
+}
+.service .title{
+    font-weight: bolder;
+}
+.service .subtitle{
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+.service p{
+    background-color: #fff;
+    height: 80px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.service-area{
+    background-image: url('../img/index/bg.jpg');
+    background-repeat: repeat;
+    padding-top: 30px;
+}
+.service-content{
+    height: 250px;
+    background-size:cover;
+}
+.content1{
+    background-image: url("../img/index/service1.jpg");
+}
+.content2{
+    background-image: url("../img/index/service2.jpg");
+}
+.content3{
+    background-image: url("../img/index/service3.jpg");
+}
+.content4{
+    background-image: url("../img/index/service4.jpg");
+}
+.content5{
+    background-image: url("../img/index/service5.jpg");
+}
+.content6{
+    background-image: url("../img/index/service6.jpg");
+}
+.service-row{
+    margin-top: 20px;
+}
+.service-title{
+    margin-top: -50px; 
+    background: rgba(255, 255, 255, 0.7);
+    line-height: 50px;
+    padding-left: 10px;
+}
+.service-desc{
+    margin-top: -10px;
+}
+.more-service{
+    border-radius: 15px;
+    border: none;
+    background: rgb(0,200,151);
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+.advantage{
+    margin-top: 10px;
+}
+.advantage .title{
+    font-weight: bolder;
+}
+.advantage-item{
+    margin-top: 10px;
+}
+.advantage .content{
+    margin-top: 40px;
+}
+.advantage p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.advantage-button{
+    margin-top: 30px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+.member-area{
+    background: url('../img/memberbg.jpg');
+    background-size: cover;
+    margin-top: 50px;
+}
+.shade{
+    background: rgba(0, 0, 0, 0.5);
+}
+.white-color{
+    color: white;
+}
+.shade .content{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.more-member{
+    color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: transparent;
+}
+.members{
+    margin-top: 15px;
+}
+.members img{
+    margin: 0 auto;
+}
+.cooperation{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.margin-top5{
+    margin-top: 20px;
+}
+.footer{
+    background: rgb(48,48,48);
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.company-info p{
+    line-height: 30px;
+}
+@media screen and (max-width: 768px){  
+.company-info p{
+    line-height: 20px;
+}
+}  
+.white-line{
+    background: white;
+    height: 1px;
+}
+.copyright{
+    margin-top: 10px;
+}
+
+/*自定义的css*/
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
