@@ -144,6 +144,9 @@ body{
 .advantage-button{
     margin-top: 30px;
 }
+.advantage-desc{
+    padding-bottom: 20px;
+}
 a{
     text-decoration: none;
     color: #fff;
