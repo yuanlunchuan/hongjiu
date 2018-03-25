@@ -26,7 +26,8 @@ body{
     margin-top: 17px;
 }
 .logo{
-    height: 30px;
+    height: 45px;
+    margin-top: -7px;
 }
 .bold-text{
     font-weight: bold;

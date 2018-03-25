@@ -19,21 +19,6 @@ h3{
   width: 130px;
 }
 
-@media screen and (max-width: 768px){  
-.site{
-  background-image: url('../img/site/phone.jpg');
-  background-size: cover;
-}
-.shadow{
-  height: 100%;
-  padding-top: 200px;
-}
-.menu img{
-  margin: 0 auto;
-  width: 100px;
-}
-}
-
 @media (min-width: 1200px) {
 .shadow{
   height: 100%;
@@ -46,6 +31,9 @@ a:hover{
   color: #fff;
 }
 .buttons{
+  margin-top: 25px;
+}
+.phone-buttons{
   margin-top: 25px;
 }
 .footer{
@@ -68,4 +56,26 @@ a{
 }
 .copyright{
   margin-top: 5px;
+}
+
+@media screen and (max-width: 768px){  
+.site{
+  background-image: url('../img/site/phone.jpg');
+  background-size: cover;
+}
+.shadow{
+  height: 100%;
+  padding-top: 130px;
+}
+.menu img{
+  margin: 0 auto;
+  width: 85px;
+}
+.white-color{
+  color: #000;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
 }
