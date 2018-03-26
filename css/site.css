@@ -22,13 +22,13 @@ h3{
 @media (min-width: 1200px) {
 .shadow{
   height: 100%;
-  padding-top: 16%;
+  padding-top: 17%;
 }
 }
 
 a:hover{
   text-decoration: none;
-  color: #fff;
+  color: #000;
 }
 .buttons{
   margin-top: 25px;
@@ -37,22 +37,14 @@ a:hover{
   margin-top: 25px;
 }
 .footer{
-  margin-top: 5%;
-}
-.company-info p{
-    line-height: 30px;
-}
-@media screen and (max-width: 768px){  
-.company-info p{
-    line-height: 20px;
-}
-}  
+  margin-top: 4%;
+} 
 a{
   text-decoration: none;
-  color: white;
+  color: #000;
 }
 .white-color{
-  color: white; 
+  color: #000;
 }
 .copyright{
   margin-top: 5px;
