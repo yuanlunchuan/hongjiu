@@ -29,6 +29,13 @@ body{
     height: 45px;
     margin-top: -7px;
 }
+.inside-menu,.outside-menu,.other-menu{
+  cursor:pointer;
+  font-weight: bold;
+}
+.inside,.outside,.other{
+  padding-left: 8px;
+}
 .navbar-default .navbar-toggle:hover {
     border-color: #40D2B1;
     background-color: rgb(69, 210, 184);
