@@ -32,6 +32,11 @@ body{
 .bold-text{
     font-weight: bold;
 }
+.brand-img{
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
 .navbar-default .navbar-toggle:hover {
     border-color: #40D2B1;
     background-color: rgb(69, 210, 184);
@@ -70,16 +75,11 @@ body{
     margin-top: 20px;
     padding-bottom: 10px;
 }
-.service p{
-    background-color: #fff;
-    height: 80px;
-    padding-top: 5px;
-    padding-left: 5px;
-}
 .service-area{
     background-image: url('../img/index/bg.jpg');
     background-repeat: repeat;
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 .service-content{
     height: 250px;
@@ -114,6 +114,21 @@ body{
 }
 .service-desc{
     margin-top: -10px;
+    background-color: #fff;
+    height: 100px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.service-desc a{
+    color: #000;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.service-desc a:hover{
+    color: #000;
+}
+.col-xs-top10{
+    margin-top: 10px;
 }
 .more-service{
     border-radius: 15px;
@@ -127,7 +142,7 @@ body{
     margin-bottom: 20px;
 }
 .advantage{
-    margin-top: 10px;
+    margin-top: 30px;
 }
 .advantage .title{
     font-weight: bolder;
@@ -193,6 +208,9 @@ a:hover{
 }
 .margin-top5{
     margin-top: 20px;
+}
+.margin-top10{
+   margin-top: 40px;   
 }
 .footer{
     background: rgb(48,48,48);
