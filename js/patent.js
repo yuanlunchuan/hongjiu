@@ -1,7 +1,7 @@
 $(function(){
-  $(".inside-menu").prepend("<img src=\"../../img/service/plus.png\">");
-  $(".outside-menu").prepend("<img src=\"../../img/service/plus.png\">");
-  $(".other-menu").prepend("<img src=\"../../img/service/plus.png\">");
+  $(".inside-menu").prepend("<img width=\"15px\" src=\"../../img/service/plus.png\">&nbsp;");
+  $(".outside-menu").prepend("<img width=\"15px\" src=\"../../img/service/plus.png\">&nbsp;");
+  $(".other-menu").prepend("<img width=\"15px\" src=\"../../img/service/plus.png\">&nbsp;");
 
   $(".inside-menu").on('click', function(){
     if($('.inside').hasClass('hidden')){
