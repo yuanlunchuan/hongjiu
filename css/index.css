@@ -106,6 +106,17 @@ body{
 .service-row{
     margin-top: 20px;
 }
+.patent-area{
+    background-image: url("../img/index/patentbg.png");
+    padding-bottom: 100px;
+}
+.patent-area img{
+    width: 60%;
+    margin: 0 auto;
+}
+.patent-title{
+    margin-top: -35%;
+}
 .service-title{
     margin-top: -50px; 
     background: rgba(255, 255, 255, 0.7);
@@ -212,6 +223,9 @@ a:hover{
 .margin-top10{
    margin-top: 40px;   
 }
+.margin-top80{
+   margin-top: 80px;   
+}
 .footer{
     background: rgb(48,48,48);
     padding-bottom: 20px;
@@ -223,6 +237,9 @@ a:hover{
 @media screen and (max-width: 768px){  
 .company-info p{
     line-height: 20px;
+}
+.margin-xs-top40{
+    margin-top: 40px;
 }
 }  
 .white-line{
